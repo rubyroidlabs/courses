@@ -4,7 +4,7 @@ BSUIR RoR course
 Week 0 - Introduction:
 -------------
 
-### Lesson 0
+### ![Lesson 0](http://www.youtube.com/watch?v=LvcK-ZF6dhI)
 
 * Introduction
 * Meeting each other
@@ -14,6 +14,9 @@ Week 0 - Introduction:
 * Installing ruby throught RVM
 * C vs Ruby program
 
+Week 1 - Getting closer to Ruby ninjas:
+-------------
+
 ### Lesson 1
 
 * CVS and github
@@ -21,10 +24,6 @@ Week 0 - Introduction:
 * Ruby versions
 * [Ruby basics](http://www.itp-redial.com/class/weekly-notes/week4-notes/ruby-101)
 * Gems
-
-
-Week 1 - Getting closer to Ruby ninjas:
--------------
 
 ### Lesson 2
 
