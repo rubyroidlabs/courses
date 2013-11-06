@@ -4,7 +4,7 @@ BSUIR RoR course
 Week 0 - Introduction:
 -------------
 
-### ![Lesson 0](http://www.youtube.com/watch?v=LvcK-ZF6dhI)
+### Lesson 0
 
 * Introduction
 * Meeting each other
@@ -46,6 +46,6 @@ Week 2 - riding Rails
 * What is Rails, baby don't hurt me, don't hurt me....no more...
 * Creating application
 * Application structure
-* 
+*
 * Rails blog for half an hour
 
