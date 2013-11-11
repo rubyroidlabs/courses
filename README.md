@@ -17,6 +17,7 @@ Week 0 - Introduction:
 Week 1 - Getting closer to Ruby ninjas:
 -------------
 
+
 ### Lesson 1
 
 * CVS and github
@@ -34,18 +35,16 @@ Week 1 - Getting closer to Ruby ninjas:
 * Mix-ins
 * Code style
 
-### Lesson 3
-
-* Ruby from inside
-* What is here? Playing fun tetris game using ruby client?
-
-
 Week 2 - riding Rails
 -------------
+
+### Lesson 3
+
+* Metaprogramming ruby
+
+### Lesson 4
 
 * What is Rails, baby don't hurt me, don't hurt me....no more...
 * Creating application
 * Application structure
-*
 * Rails blog for half an hour
-
