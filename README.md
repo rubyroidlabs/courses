@@ -48,3 +48,27 @@ Week 2 - riding Rails
 * Creating application
 * Application structure
 * Rails blog for half an hour
+
+Week 3 - Test. Test? Test!!
+-------------
+
+### Lesson 5
+
+* Performance check
+
+### Lesson 6
+
+* Ruby handsome tools
+* Array, Hash methods
+* Ruby standard library treasures
+
+Week 4 - Lets compose these bricks!
+-------------
+
+### Lesson 7
+
+* BSUIR extended schedule parser
+
+### Lesson 8
+
+* Dive into ActiveRecord!
