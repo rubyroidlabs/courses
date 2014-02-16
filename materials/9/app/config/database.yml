@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 10
+  username: postgres
+  #password:
+
+development:
+  <<: *default
+  database: courses_development
+
+test:
+  <<: *default
+  database: courses_test
+
+production:
+  <<: *default
+  database: courses_development
