@@ -52,6 +52,10 @@ Gem::Specification.new do |s|
   s.email       = 'nick@quaran.to'
   s.homepage    = 'http://example.com/freewill'
   s.files       = ["lib/freewill.rb", ...]
+  s.add_runtime_dependency "daemons", ["= 1.1.0"]
+  s.add_development_dependency "bourne", [">= 0"]
+  s.add_development_dependency "devise", ["~> 2.2"]
+
 end
 ```
 
@@ -69,6 +73,13 @@ end
 * net-http-persistent => require 'net/http/persistent'	
 * net-http-digest_auth => require 'net/http/digest_auth'
 * Don’t use UPPERCASE letters
+
+## Версионирование
+```
+PATCH 0.0.x level changes for implementation level detail changes, such as small bug fixes
+MINOR 0.x.0 level changes for any backwards compatible API changes, such as new functionality/features
+MAJOR x.0.0 level changes for backwards incompatible API changes, such as changes that will break existing users code if they update
+```
 
 ## Gemfile & bundler
 
