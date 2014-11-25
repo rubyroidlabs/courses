@@ -1,0 +1,28 @@
+
+17:46:26.416 [Thread-2] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+17:47:18.390 [Thread-2] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+17:47:34.759 [Thread-2] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+17:47:43.602 [Thread-2] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+18:28:09.558 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.eclipse.jetty.server.Request loaded by startJarLoader@11a2ac44
+18:28:09.563 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@19c2da48clazz's classloader=startJarLoader@11a2ac44
+18:28:09.564 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by startJarLoader@11a2ac44
+18:28:09.564 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@19c2da48clazz's classloader=startJarLoader@11a2ac44
+18:28:09.564 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+18:55:20.505 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+18:55:30.680 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+18:55:54.599 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by startJarLoader@62a1d7d9
+18:55:54.601 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@63dc6270clazz's classloader=startJarLoader@62a1d7d9
+18:55:54.601 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.eclipse.jetty.server.Request loaded by startJarLoader@62a1d7d9
+18:55:54.601 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@63dc6270clazz's classloader=startJarLoader@62a1d7d9
+18:55:54.601 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class net.tetris.services.Player loaded by WebAppClassLoader=Tetris@63dc6270
+18:55:54.602 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - removed
+18:55:54.602 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+19:03:12.770 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.eclipse.jetty.server.Request loaded by startJarLoader@4edbad67
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@19c2da48clazz's classloader=startJarLoader@4edbad67
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class net.tetris.services.Player loaded by WebAppClassLoader=Tetris@19c2da48
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - removed
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - Clazz: class org.apache.jasper.runtime.PageContextImpl loaded by startJarLoader@4edbad67
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - not removed: contextclassloader=WebAppClassLoader=Tetris@19c2da48clazz's classloader=startJarLoader@4edbad67
+19:03:12.773 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+19:03:52.763 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+19:04:53.750 [Thread-1] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
