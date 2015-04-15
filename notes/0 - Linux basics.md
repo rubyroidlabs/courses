@@ -21,7 +21,7 @@
 * Only root user has write privilege under this directory.
 * Please note that /root is root user’s home directory, which is not same as /.
 
-###/bin – User Binaries
+###/bin – All Users' Binaries
 
 * Contains binary executables.
 * Common linux commands you need to use in single-user modes are located under this directory.
