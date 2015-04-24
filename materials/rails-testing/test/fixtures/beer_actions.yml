@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action: MyString
+  beer_id: 
+  quantity: 1
+
+two:
+  action: MyString
+  beer_id: 
+  quantity: 1

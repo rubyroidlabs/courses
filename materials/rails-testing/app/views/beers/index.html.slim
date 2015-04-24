@@ -1,0 +1,14 @@
+h1 Beers!
+
+table.table.table-bordered.table-striped
+  thead
+    tr Name
+    tr Availible
+    tr Action
+  tbody
+    - @beers.each do |beer|
+      tr
+        td= beer.name
+        td= beer.quantity
+        td
+          | -
