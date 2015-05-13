@@ -11,7 +11,7 @@ class TestTrain < Minitest::Benchmark
   def bench_time_to_next_station
     @train = Train.new
 
-    assert_performance_linear 0.9999 do |distance| # n is a range value
+    assert_performance_linear 0.999 do |distance| # n is a range value
       @train.get_to_next_station(distance)
     end
   end

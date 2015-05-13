@@ -19,7 +19,7 @@ class Train
   end
 
   def get_to_next_station(distance)
-    sleep 0.00002 * distance * Math.log(distance)
+    sleep 0.00002 * distance
   end
 
   def will_arrive_by_the_end_of_the_day?(tripDuration)

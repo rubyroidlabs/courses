@@ -9,7 +9,7 @@ class TestTrain < Minitest::Test
   end
 
   def test_that_train_has_default_name
-    assert_equal 'Uber train', @train.name
+    assert_equal 'Uber  train', @train.name
   end
 
   def test_that_train_has_default_size

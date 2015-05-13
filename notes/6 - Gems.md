@@ -15,13 +15,45 @@
 
 ## Гем
 
-Each gem has a name, version, and platform
+Each gem has a name, version
 
 ## Составляющие
 
 * Code (including tests and supporting utilities)
+* extconf
 * Documentation
 * gemspec
+
+## Плюсы гемов в отличии от C библиотек
+
+* Читаемость
+* Простота дополнения
+
+## Как установить гем и где он окажется
+
+Установить гем просто: `gem install colorize`
+
+Его местонахождение определяется тем, какую систему контроля гемов вы используете.
+Рассмотрим rvm. Гемы окажутся в `~/.rvm/gems/ruby-2.1.5@my-gemset`.
+
+Установка гема просто подразумевает под собой сохранение определенной версии гема.
+
+
+## Именование
+
+* fancy_require => require 'fancy_require'	
+* net-http-persistent => require 'net/http/persistent'	
+* net-http-digest_auth => require 'net/http/digest_auth'
+* Don’t use UPPERCASE letters
+
+## Версионирование
+```
+PATCH 0.0.x level changes for implementation level detail changes, such as small bug fixes
+MINOR 0.x.0 level changes for any backwards compatible API changes, such as new functionality/features
+MAJOR x.0.0 level changes for backwards incompatible API changes, such as changes that will break existing users code if they update
+```
+
+Для просмотра документации конкретной версии не забываем включать верную версию на гитхабе.
 
 ## Структура
 
@@ -67,19 +99,6 @@ end
 4. `gem install ./my_gem.gem`
 5. `gem push hola-0.0.0.gem`
 
-## Именование
-
-* fancy_require => require 'fancy_require'	
-* net-http-persistent => require 'net/http/persistent'	
-* net-http-digest_auth => require 'net/http/digest_auth'
-* Don’t use UPPERCASE letters
-
-## Версионирование
-```
-PATCH 0.0.x level changes for implementation level detail changes, such as small bug fixes
-MINOR 0.x.0 level changes for any backwards compatible API changes, such as new functionality/features
-MAJOR x.0.0 level changes for backwards incompatible API changes, such as changes that will break existing users code if they update
-```
 
 ## Gemfile & bundler
 
@@ -249,6 +268,14 @@ DEPENDENCIES
   ruby-prof
 
 ```
+
+## rubygems-bundler
+
+Позволяет не писать bundle exec для каждой команды. Дело в том, что rubygems-bundler интегрирует функционал bundler-a в rubygems и заставляет ruby по дефолту запускать нужные версии гемов.
+
+## RubyGems >= 2.2.0
+
+В rubygems версии 2.2.0 и выше этот функционал включен по дефолту и гем rubygems-bundler уже не требуется. Используя переменную `RUBYGEMS_GEMDEPS` можно добиться того же результата что и с гемом `bundler`. Но в версии 2.2.0 не весь синтаксис Gemfile поддерживается, поэтому я бы побоялся переходить с бандлера на рубигемс прямо сейчас.
 
 ---
 # Домашнее задание
