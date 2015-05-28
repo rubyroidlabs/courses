@@ -4,14 +4,30 @@
 ## Websites basics & Working with sockets
 
 ```
-require 'socket'
+require 'socket' 
 
-server = TCPServer.open(3000)
+server = TCPServer.new('localhost', 3333)
 
 loop do
-  client = server.accept
-  client.puts(Time.now.ctime)
-  client.close
+
+  socket = server.accept
+
+  request = socket.gets
+
+  STDERR.puts request
+
+  response = "#{Time.now.ctime}\n"
+
+  socket.print "HTTP/1.1 200 OK\r\n" +
+               "Content-Type: text/plain\r\n" +
+               "Content-Length: #{response.bytesize}\r\n" +
+               "Connection: close\r\n"
+
+  socket.print "\r\n"
+
+  socket.print response
+
+  socket.close
 end
 ```
 
@@ -60,12 +76,15 @@ loop do
 end
 ```
 
+Run webrick in one line
+
 ```
 ruby -run -e httpd . -p 9090
 ```
 
 
 ## Rack 
+Ruby webserver interface.
 ```
 require 'rack'
 
@@ -85,6 +104,7 @@ run Proc.new { |env| ['200', {'Content-Type' => 'text/html'}, ['get rack\'d']] }
 run App.new
 ```
 
+Simple lobster rack app
 ```
 require 'rack'
 require 'rack/lobster'
