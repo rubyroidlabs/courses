@@ -16,7 +16,29 @@ class Product < ActiveRecord::Base
 end
 ```
 
+## Create mysql DB
 
+```
+CREATE DATABASE tmpbase;
+
+use tmpbase
+```
+
+## Establish connection
+
+```
+ # connect to SQLite3
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'dbfile.sqlite3')
+
+ # connect to MySQL with authentication
+ActiveRecord::Base.establish_connection(
+  adapter:  'mysql2',
+  host:     'localhost',
+  username: 'me',
+  password: 'secret',
+  database: 'activerecord'
+)
+```
 
 ## Query API
 
@@ -31,7 +53,7 @@ end
 
 create_table :people do |t|
   t.string :name, null: false, limit: 50
-end
+lend
 ```
 
 ```

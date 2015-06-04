@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'activerecord'
+gem 'pry'
+gem 'mysql2'
+gem 'sqlite3'
+gem 'ffaker'
