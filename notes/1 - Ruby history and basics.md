@@ -73,10 +73,10 @@ a += 1
 # Ruby won't automatically make a number into a String.
 # You must do it manually by calling the "to_s" built in function
 puts "a now = " + a => Exception
-a_value = a_value + a_value
+a_value = a_value + a_value # Что это?
 puts "a_value now = " + a_value.to_s
 # % + - * /  and so on but here is the best way:
-puts "a_value now = #{ a_value.to_s }"
+puts "a_value now = #{ a_value }"
 ```
 
 ### Strings and comments
@@ -282,7 +282,7 @@ exit
 
 
 ## Git and SVN
-* git initn
+* git init
 * git add
 * git commit
 * git branch
